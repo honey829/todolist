@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+}
+
+label.task-text {
+    font-size: medium;
+    margin-left: 0.5rem;
+    color: darkred;
+}
+
+.custom-li {
+    font-size: medium;
+}
+.Todocontainer {
+    display: flex;
+    flex-direction: column;
+}
+.complete {
+    text-decoration-line: line-through;
+}
+.incomplete {
+    text-decoration-line: none;
+}
+
+.custom-button {
+    width: 12rem;
+}
+
+.padding-0 {
+    padding: 0%;
+}
+
+.footer {
+    flex: 1 0 auto;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.custom-container {
+    padding: 5px;
+    margin: 10px 5px;
+}
+
+@media screen and (min-width: 1024px) {
+    .Bucket {
+        padding: 2% 10%;
+        margin: 2% 10%;
+    }
+}
